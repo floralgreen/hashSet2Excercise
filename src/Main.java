@@ -14,8 +14,12 @@ public class Main {
         //inserisco l'elemento creato prima nell'hashset
         hashSetDiNomi.add(nomeDaInserire);
 
-        //verifico se l'oggetto è presente all'interno dell'HashSet e stampo true o false
-        System.out.println(hashSetDiNomi.contains(nomeDaInserire));
+        //verifico se l'oggetto è presente all'interno dell'HashSet e stampo il risultato
+        if(hashSetDiNomi.contains(nomeDaInserire)){
+            System.out.println(nomeDaInserire + " è presete nella collection");
+        } else {
+            System.out.println(nomeDaInserire + " non è presente nella collenction");
+        }
     }
 
 }
