@@ -1,4 +1,3 @@
-import java.util.HashSet;
 import java.util.Set;
 
 public class Main {
@@ -17,8 +16,6 @@ public class Main {
 
         //verifico se l'oggetto è presente all'interno dell'HashSet e stampo true o false
         System.out.println(hashSetDiNomi.contains(nomeDaInserire));
-
-
     }
 
 }
