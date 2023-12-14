@@ -15,17 +15,9 @@ public class Main {
         //inserisco l'elemento creato prima nell'hashset
         hashSetDiNomi.add(nomeDaInserire);
 
-        //this?
-        for (String nome : hashSetDiNomi) {
-            if (nome.equals("Lorenzo")){
-                System.out.println(nome);
-            }
-        }
+        //verifico se l'oggetto è presente all'interno dell'HashSet e stampo true o false
+        System.out.println(hashSetDiNomi.contains(nomeDaInserire));
 
-        //this?
-        if (hashSetDiNomi.contains(nomeDaInserire)){
-            System.out.println(hashSetDiNomi.contains(nomeDaInserire));
-        }
 
     }
 
